@@ -1,0 +1,32 @@
+.flex-container {
+  border-style: solid;
+  border-color: blueviolet;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: violet;
+  
+
+ 
+  
+}
+.flex-item {
+  padding: 10px;
+  margin: 10px;
+  border: solid;
+  background-color: lightpink;
+
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+ .flex-item {
+  margin-top: 10px;
+ }
+}
