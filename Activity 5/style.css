@@ -1,0 +1,20 @@
+.button {
+  color: white;
+  background-color:blue;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.google {
+  color: black !important;
+}
+
+.footer {
+  background-color: black;
+  color: orange;
+}
+
+.container {
+  text-align: center;
+}
